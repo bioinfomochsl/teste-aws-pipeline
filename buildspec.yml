@@ -5,7 +5,7 @@ phases:
         commands:
             - echo Logging in to Amazon ECR...
             - aws --version
-            - $(aws --profile iep ecr get-login --region us-east-1 --no-include-email)
+            - $(aws ecr get-login --region us-east-1 --no-include-email)
             - REPOSITORY_URI=435026212507.dkr.ecr.us-east-1.amazonaws.com/teste-codepipeline
             - IMAGE_TAG=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
     build:
