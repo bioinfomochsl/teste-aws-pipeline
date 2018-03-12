@@ -1,0 +1,21 @@
+{
+    "taskDefinition": {
+        "family": "teste-codepipeline",
+            "containerDefinitions": [
+            {
+                "name": "teste-codepipeline",
+                "image": "435026212507.dkr.ecr.us-east-1.amazonaws.com/teste-codepipeline:latest",
+                "cpu": 100,
+                "portMappings": [
+                {
+                    "protocol": "tcp",
+                    "containerPort": 80,
+                    "hostPort": 80
+                }
+                ],
+                "memory": 128,
+                "essential": true
+            }
+            ]
+    }
+}
