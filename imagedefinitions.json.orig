@@ -1,6 +1,6 @@
 [
     {
-        "name": "435026212507.dkr.ecr.us-east-1.amazonaws.com/teste-codepipeline",
+        "name": "teste-codepipeline",
         "imageUri": "435026212507.dkr.ecr.us-east-1.amazonaws.com/teste-codepipeline:latest"
     }
 ]
