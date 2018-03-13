@@ -1,6 +1,6 @@
 [
     {
-        "name": "ContainerTest",
-        "imageUri": "435026212507.dkr.ecr.us-east-1.amazonaws.com/teste2-codepipeline:latest"
+        "name": "ContainerTestAWSPipeline",
+        "imageUri": "435026212507.dkr.ecr.us-east-1.amazonaws.com/test-aws-pipeline:latest"
     }
 ]
